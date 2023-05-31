@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "img": "http://upmedia.az/assets/img/icon/sicon1.png",
+        "title": "Manage IT Services",
+        "body": "Sed perspicias unde omnis  natus error volute"
+    },
+    {
+        "id": 1,
+        "img": "http://upmedia.az/assets/img/icon/sicon2.png",
+        "title": "Product Engineering",
+        "body": "Sed perspicias unde omnis  natus error volute"
+    },
+    {
+        "id": 2,
+        "img": "http://upmedia.az/assets/img/icon/sicon3.png",
+        "title": "Web Development",
+        "body": "Sed perspicias unde omnis  natus error volute"
+    },
+    {
+        "id": 3,
+        "img": "http://upmedia.az/assets/img/icon/sicon4.png",
+        "title": "Digital Solutions",
+        "body": "Sed perspicias unde omnis  natus error volute"
+    }
+]

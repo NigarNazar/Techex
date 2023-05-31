@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.innovating {
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+
+.innovatin-self-item img {
+    width:100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+.innovating-service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 80px;
+    transition: all 1.2s;
+}
+
+.innovating-service-item h6 {
+    color: #086ad7;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.innovating-service-item h2 {
+    line-height: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 42px;
+    letter-spacing: -3px;
+    padding-bottom: 30px;
+}
+.innovating-item{
+    background: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.innovating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innovating-container a {
+    display: block;
+    font-weight: 600;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    font-size: 18px;
+}
+.innovating-container span{
+    color: #086ad7;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.innovating-panel span {
+    display: block;
+    color: #777;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+}
+@media(max-width:1200px) and (min-width:1090px){
+    
+}
+@media(max-width:1198px) and (min-width:1000px){  
+    .innovating-service-item{
+        padding:80px 60px;
+    } 
+    .innovating-service-item h2{
+        font-size: 38px;
+    }  
+}
+@media(max-width:1000px) and (min-width:733px){
+    .innovatin-self-item img{
+display: none;
+    } 
+    .innovating-service-item{
+        padding:80px 60px;
+    } 
+    .innovating-service-item h2{
+        font-size: 36px;
+    }  
+}
+@media(max-width:733px) and (min-width:500px){
+    .innovatin-self-item img{
+display: none;
+    } 
+    .innovating-service-item{
+        padding:80px 60px;
+    } 
+    .innovating-service-item h2{
+        font-size: 34px;
+    }
+    .innovating-container a{
+font-size: 17px;
+    }
+    .innovating-panel span{
+font-size: 16px;
+    }    
+}
+@media(max-width:500px){
+    .innovatin-self-item img{
+         display: none;
+    } 
+    .innovating-service-item{
+        padding:80px 40px;
+    } 
+    .innovating-service-item h2{
+        font-size: 30px;
+    } 
+    .innovating-container a{
+font-size: 16px;
+    }
+    .innovating-panel span{
+font-size: 15px;
+    }  
+}

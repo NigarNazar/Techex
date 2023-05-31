@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+* ,::after , ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Syne', sans-serif;
+}
+.Team{
+    padding: 11% 80px 0 80px;
+}
+.top-team{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom:60px;
+}
+
+.top-team h6{
+    font-weight:700;
+    line-height:24px;
+    background: linear-gradient(90deg, #FA5156 0%, #632AAC 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.top-team h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color:#0E1871;;
+    text-align: center;
+}
+.top-team h2 span{
+    background: linear-gradient(90deg, #E54C62 75.47%, #642AAB 96.12%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-ul{
+    background:url(http://upmedia.az/assets/img/home7/310x300.png);
+    width:310px;
+    height:300px;
+}
+.icon-ul ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    padding:80% 40px 0 30px;
+    transition: 1s ease-in;
+}
+.icon-ul ul:hover{
+    opacity: 1;
+}
+.icon-ul ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(211, 50, 101, 0.1);
+}
+.icon-ul ul li a i{
+    color: #ffff;
+}
+.icon-ul ul li:hover{
+    background: linear-gradient(132.63deg, #5116AD 15.86%, #E1345D 91.61%);
+    transition: 0.5s;
+}
+.fa-youtube{
+    color: #fff;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  30px 0;
+}
+.end h4{
+    font-size:24px;
+    line-height:28px;
+    color:#0E1871;
+    font-weight:700;
+}
+.end span{
+    color: #5F637A;
+    font-size:15px;
+    font-weight: 500;
+    line-height: 100%;
+}
+@media(max-width:1236px) and (min-width:1180px) {
+    .Team{
+        padding: 11% 50px 0 50px;
+    } 
+
+}
+
+@media(max-width:1180px) and (min-width:998px) {
+    .Team{
+        padding: 11% 40px 0 40px;
+    }
+    .top-team h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:998px) and (min-width:500px) {
+    .Team{
+        padding: 11% 30px 0 30px;
+    }
+    .top-team h2{
+        font-size: 30px;
+    }
+    .top-team h2 span{
+font-size: 30px;
+    }
+}
+
+@media(max-width:500px) {
+    .Team{
+        padding: 11% 20px 0 20px;
+    }
+    .top-team h2{
+font-size: 28px;
+    }
+    .top-team h2 span{
+font-size: 28px;
+    }
+}

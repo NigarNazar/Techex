@@ -1,0 +1,59 @@
+[
+    {
+        "id": 0,
+        "img": "http://upmedia.az/assets/img/home7/figma.svg",
+        "title": "Figma",
+        "body": "Design Tool",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    {
+        "id": 1,
+        "img": "http://upmedia.az/assets/img/home7/discord.svg",
+        "title": "Discord",
+        "body": "Social Media",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    {  "id": 2,
+        "img": "http://upmedia.az/assets/img/home7/slack.svg",
+        "title": "Slack",
+        "body": "Communication",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+
+    },
+    {
+        "id": 3,
+        "img": "http://upmedia.az/assets/img/home7/trello.svg",
+        "title": "Trello",
+        "body": "Note Service",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    {
+        "id": 4,
+        "img": "http://upmedia.az/assets/img/home7/mailchimp.svg",
+        "title": "Mailchimp",
+        "body": "Mail Service",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    {
+        "id": 5,
+        "img": "http://upmedia.az/assets/img/home7/facebook.svg",
+        "title": "Facebook",
+        "body": "Social Media",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    {
+        "id": 6,
+        "img": "http://upmedia.az/assets/img/home7/snapchat.svg",
+        "title": "Snapchat",
+        "body": "Multimedia",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+    },
+    { 
+         "id": 7,
+        "img": "http://upmedia.az/assets/img/home7/linkedin.svg",
+        "title": "Linkedin",
+        "body": "Social Media",
+        "paragraf":"There are many variations of passages of Lorem Ipsum available."
+
+    }
+]

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+* ,::after , ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Syne', sans-serif;
+}
+.footer{
+    padding: 5% 80px 5% 80px;
+    position: relative;
+}
+.move1{
+    position: absolute;
+    left: 0;
+    z-index: -999;
+    bottom:0;
+}
+.move2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 30px;
+}
+.footer-top h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0E1871; 
+    padding-bottom: 20px; 
+}
+.foot-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(14, 24, 113, 0.1);
+}
+.foot-left img{
+    padding-bottom: 20px;
+}
+.foot-left span{
+    display: block;
+    font-weight:400;
+    color: #5F637A;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.foot-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-all a{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(211, 50, 101, 0.1);
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.8s;
+    color: #fff;
+}
+.foot-all a {
+    background: linear-gradient(132.63deg, #5116AD 15.86%, #E1345D 91.61%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.8;
+}
+.foot-all a:hover{
+    background: linear-gradient(132.63deg, #5116AD 15.86%, #E1345D 91.61%);
+    color:#fff;  
+}
+.foot-all a .fa-youtube{
+    background: linear-gradient(132.63deg, #5116AD 15.86%, #E1345D 91.61%);
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.foot-all:hover  a .fa-youtube{
+    color: #fff;
+}
+
+.foot-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foot-right ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+}
+.foot-right p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0E1871;
+}
+.foot-right p a{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #6C7593;
+}
+.foot-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foot-up a{
+    color: #6C7593;
+    text-decoration: none; 
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+.foot-up a:hover{
+    text-decoration: underline;
+}
+.foot-up a i{
+    color: #5F637A;
+    margin-right: 10px;
+}
+.foot-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foot-down img{
+    margin: 5px;
+}
+.bottom-left{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+}
+.bottom-left span{
+    font-size: 17px;
+    line-height: 17px;
+    color: #5F637A;
+}
+.bottom-left span a{
+    background: linear-gradient(90deg, #5116AD 19.92%, #E2345C 41.21%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.bottom-right{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.bottom-right a{
+text-decoration: none;
+color: #6C7593;
+text-decoration: none; 
+font-size: 17px;
+font-weight: 500;
+}
+.bottom-right p{
+    font-size: 17px;
+    padding: 0 5px;
+    color: #5F637A;
+}
+@media(max-width:1236px) and (min-width:1180px) {
+    .footer{
+        padding: 5% 60px 5% 60px;
+        position: relative;
+    }  
+    
+}
+@media(max-width:1180px) and (min-width:998px) {
+    .footer{
+        padding: 5% 40px 5% 40px;
+        position: relative;
+    } 
+    .foot-left span{
+        font-size: 17px;
+    }  
+}
+
+@media(max-width:998px) and (min-width:500px) {
+    .footer{
+        padding: 5% 30px 5% 30px;
+        position: relative;
+    }
+    .foot-left span{
+        font-size: 16px;
+    } 
+    .bottom-left span{
+        font-size: 16px;
+    }
+    .bottom-left span a{
+        font-size: 16px;
+    }
+    .foot-left span br{
+        display: none;
+     }  
+}
+
+@media(max-width:500px) {
+    .footer{
+        padding: 5% 20px 5% 20px;
+
+    } 
+    .foot-left span br{
+       display: none;
+    } 
+    .bottom-left span{
+        font-size: 15px;
+    }
+    .bottom-left span a{
+        font-size: 15px;
+    }
+    .bottom-right a{
+        font-size: 15px;
+    }
+    .bottom-right p{
+        font-size: 15px;
+    }
+}

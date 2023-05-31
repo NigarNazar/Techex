@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.count{
+    background-color: #086ad7;
+    margin: 10% 150px 0 150px;
+    position: relative;
+    border-radius: 7px;
+}
+.count-set-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(	http://upmedia.az/assets/img/funfact-line.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+   background-position: center;
+   padding:60px;
+   text-align: center;
+}
+.count-1 a, .count-2 a, .count-3 a, .count-4 a {
+    text-decoration: none;
+    font-size: 42px;
+    line-height: 1px;
+    color: #fff;
+}
+.count-1 , .count-2 , .count-3 , .count-4{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-set-item h1{
+    position: relative;
+    color: #fff;
+    padding-top: 30px;
+    font-size: 54px;
+    font-family: 'Circular Std', sans-serif;
+}
+.count-set-item h1::before{
+    content: "+";
+    position: absolute;
+    bottom: 50%;
+    left:80%;
+    font-size:36px;
+}
+.count-set-item span{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@media(max-width:1200px) and (min-width:1090px){
+    
+}
+@media(max-width:1198px) and (min-width:1090px){
+    .count {
+        margin: 10% 100px 0 100px;
+    }
+   
+}
+@media(max-width:1092px) and (min-width:1000px){
+    .count {
+        margin: 10% 40px 0 40px;
+    }
+    .count-set-item{
+        padding: 60px;
+    } 
+    .count-set-item h1{
+        font-size:50px;
+    }
+    .count-set-item h1::before{
+        font-size: 38px;
+    }
+}
+@media(max-width:960px) and (min-width:868px){
+    .count {
+        margin: 10% 80px 0 80px;
+    }
+    .count-set-item{
+        padding: 60px 120px;
+    }
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }    
+}
+@media(max-width:867px) and (min-width:846px){
+    .count {
+        margin: 10% 60px 0 60px;
+    }
+    .count-set-item{
+        padding: 60px 80px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }
+}
+@media(max-width:846px) and (min-width:779px){
+    .count {
+        margin: 10% 30px 0 40px;
+    }
+    .count-set-item{
+        padding: 60px 100px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 40px;
+    }   
+}
+@media(max-width:779px) and (min-width:700px){
+    .count {
+        margin: 10% 30px 0 40px;
+    }
+    .count-set-item{
+        padding: 60px 80px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }  
+}
+@media(max-width:700px) and (min-width:650px){
+    .count {
+        margin: 10% 30px 0 40px;
+    }
+    .count-set-item{
+        padding: 60px 40px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }    
+}
+@media(max-width:650px) and (min-width:590px){
+    .count {
+        margin: 10% 20px 0 20px;
+    }
+    .count-set-item{
+        padding: 60px 40px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }    
+}
+@media(max-width:590px) and (min-width:548px){
+    .count {
+        margin: 10% 20px 0 20px;
+    }
+    .count-set-item{
+        padding: 60px 20px;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }   
+}
+@media(max-width:548px) and (min-width:500px){
+    .count {
+        margin: 10% 10px 0 10px;
+    }
+    .count-set-item{
+        padding: 60px 0;
+    } 
+    .count-1 , .count-2 , .count-3 , .count-4{
+        margin: 10px 30px;
+    }   
+}
+@media(max-width:500px){
+    .count {
+        margin: 10% 20px 0 20px;
+    }
+    .count-set-item{
+        padding: 60px 120px;
+    } 
+}

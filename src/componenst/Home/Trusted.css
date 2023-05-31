@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+* , ::after , ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Syne', sans-serif;
+}
+.trusted{
+    padding: 11% 80px 20px 80px;
+    background:url(http://upmedia.az/assets/img/home7/com_01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.marketing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: start;
+    align-items: start;
+    margin-right: 30px;
+}
+.by-class-mark{
+    display: flex;
+    flex-wrap: wrap;
+}
+.by-class-mark ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.by-class-mark ul{
+    list-style: none;
+}
+.by-class-mark:nth-child(2){
+    display: flex;
+  align-content: center;
+}
+.by-class-mark ul li{
+    padding: 20px 30px;
+filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.2));
+transition: 0.8s ease-out;
+cursor: pointer;
+}
+.by-class-mark ul li:hover{
+    transform: scale(1.2);
+}
+.trust-our{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content:start;
+    align-items: start;
+}
+.trust-our h6{
+    color:#FA5156;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.trust-our h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color:#0E1871;
+}
+.trust-our h1 span{
+    background: linear-gradient(90deg, #E54C62 75.47%, #642AAB 96.12%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 42px;
+}
+.span-our span{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height:30px;
+    padding: 0 ;
+    margin-bottom: 10px;
+    color: #5F637A;
+}
+@media(max-width:1380px) and (min-width:1180px) {
+    .trusted{
+        padding: 11% 50px 20px 50px;
+    }
+    .trust-our h1{
+        font-size: 38px;
+    }
+    .trust-our h1 span{
+        font-size: 38px;
+    }
+    .by-class-mark ul li{
+        padding: 20px 25px;
+    }
+  
+}
+@media(max-width:1180px) and (min-width:1105px) {
+    .trusted{
+        padding: 11% 30px 20px 30px;
+    }
+    .trust-our h1{
+        font-size: 34px;
+    }
+    .trust-our h1 span{
+        font-size: 34px;
+    }
+    .by-class-mark ul li{
+        padding: 20px 20px;
+    }
+    .span-our span{
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:1105px) and (min-width:998px){
+    .trusted{
+        padding: 11% 30px 20px 30px;
+    }
+    .trust-our h1{
+        font-size: 32px;
+    }
+    .trust-our h1 span{
+        font-size: 32px;
+    }
+    .by-class-mark ul li{
+        padding: 20px 15px;
+    }
+    .span-our span{
+        font-size: 16px;
+    }
+      
+}
+@media(max-width:998px) and (min-width:500px) {
+    .trusted{
+        padding: 11% 30px 20px 30px;
+    }
+    .trust-our h1{
+        font-size: 30px;
+    }
+    .trust-our h1 span{
+        font-size: 30px;
+    }
+    .by-class-mark ul li{
+        padding: 20px 15px;
+    }
+    .by-class-mark ul li img{
+        width: 80px;
+    }
+    .span-our span{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px) {
+    .trusted{
+        padding: 11% 40px 20px 40px;
+    }
+    .trust-our h1{
+        font-size: 28px;
+    }
+    .trust-our h1 span{
+        font-size: 28px;
+    }
+    .by-class-mark ul li{
+        padding: 20px 10px;
+    }
+    .by-class-mark ul li img{
+        width: 70px;
+    }
+    .span-our span br{
+       display: none;
+    }
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+* ,::after , ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Syne', sans-serif;
+}
+.test{
+    padding: 11% 65px 5% 65px;
+}
+.test-our{
+    position:relative;
+    display: flex;
+}
+.card-test{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:30px;
+}
+.card-test h6{
+    background: linear-gradient(90deg, #FA5156 0%, #632AAC 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:600;
+}
+.card-test h6 img{
+ padding-right:10px;    
+}
+.card-test h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #0E1871;
+}
+.card-test h1 span{
+    font-size: 42px;
+    line-height: 50px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(75.47%, #E54C62), color-stop(96.12%, #642AAB));
+    background: linear-gradient(90deg, #E54C62 75.47%, #642AAB 96.12%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.card-side{
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(1px 0.5px 8px rgba(0,0,0,0.2));
+    background: #fff;
+    border-radius: 7px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-all{
+    display: flex;
+    flex-direction: column;
+}
+.card-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   padding-bottom: 50px;
+   position: relative;
+   background: url(http://upmedia.az/assets/img/home7/shape_06.svg);
+   background-repeat: no-repeat;
+   background-size: 150px;
+}
+.card-name{
+    display: flex;
+    flex-direction: column;
+}
+.card-name h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+.card-name span{
+    color: #5F637A;
+    font-size:15px;
+    font-weight:400;
+    line-height: 18px;
+}
+.card-paragraf{
+    text-align:start;
+    margin:0 20px 0 20px;
+    padding-top: 30px;
+    border-top: 1px dashed rgba(66, 18, 180, 0.1);
+}
+.card-paragraf span{
+    color: #5F637A;
+    font-size:17px;
+    font-weight:500;
+    line-height: 36px; 
+    letter-spacing: 0.6px;
+}
+@media(max-width:1236px) and (min-width:1180px) {
+    .test{
+        padding: 11% 0 5% 55px;
+    } 
+    
+}
+@media(max-width:1180px) and (min-width:998px) {
+    .test{
+        padding: 11% 0 5% 45px;
+    }
+    .card-test h1 {
+font-size: 36px;
+    }
+    .card-test h1 span{
+font-size: 36px;
+    } 
+}
+
+@media(max-width:998px) and (min-width:500px) {
+    .test{
+        padding: 11% 35px 5% 35px;
+    }
+    .card-test h1{
+font-size: 30px;
+    } 
+    .card-test h1 span{
+   font-size: 30px;     
+    }   
+}
+
+@media(max-width:500px) {
+    .test{
+        padding: 11% 25px 5% 25px;
+    } 
+    .card-test h1{
+font-size: 28px;
+    } 
+    .card-test h1 span{
+  font-size: 28px;      
+    }  
+}

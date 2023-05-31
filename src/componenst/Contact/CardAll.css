@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*, ::after ,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Std', sans-serif;
+}
+.cardAll{
+    padding: 10% 80px;
+    display: flex;
+}
+.cardAll-service-set{
+    width: 380px;
+    height: 230px;
+    background-color: #f8f8f8;
+    padding: 40px;
+    transition: 0.8s ease-in-out;
+    margin: 30px;
+}
+.cardAll-service-set:hover{
+    background-color: #000000;
+}
+.cardAll-service-top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.cardAll-service-set:hover .letter {
+    background-color: #086ad7 !important;
+}
+.cardAll-service-set:hover .letter a{
+    color: #fff !important;
+}
+.cardAll-right{
+    display: flex;
+    flex-direction: column;
+    transition: 0.8s ease-in-out;
+}
+.cardAll-right h4{
+    font-size: 20px;
+    color: #211e3b;
+    font-weight: 700;
+    line-height: 28px;
+}
+.cardAll-service-set:hover .cardAll-right h4{
+    color: #fff  !important;
+}
+.cardAll-right span{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #696969;
+}
+.cardAll-service-set:hover .cardAll-right span{
+    color: #c5c7c8;
+}
+.cardAll-service-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.cardAll-left{
+    display: flex;
+    flex-direction: column;
+}
+.cardAll-left a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #696969;
+}
+.cardAll-service-set:hover .cardAll-left a{
+    color: #c5c7c8;
+}
+.archer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .8s ease-in-out;
+}
+.archer a{
+    color: #696969;
+}
+.cardAll-service-set:hover .archer a{
+color: #086ad7 !important;
+}
+
+@media(max-width:1198px) and (min-width:1090px){
+    .cardAll{
+        padding: 10% 80px;
+    }  
+}
+@media(max-width:1090px) and (min-width:733px){
+    .cardAll{
+        padding: 10% 60px;
+    }  
+}
+@media(max-width:733px) and (min-width:500px){
+    .cardAll{
+        padding: 10% 40px;
+    } 
+    .cardAll-service-set{
+        width: 100%;
+    }   
+}
+@media(max-width:500px){
+    .cardAll{
+        padding: 10% 20px;
+    } 
+    .cardAll-service-set{
+        width: 100%;
+    } 
+    .col-sm-12{
+       align-content: center;
+    } 
+}

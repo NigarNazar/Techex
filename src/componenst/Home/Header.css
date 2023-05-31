@@ -1,0 +1,208 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Std', sans-serif;                                               
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:25px 80px ;
+}
+
+.header .logo{
+    position: absolute;
+    z-index: -1;
+    top: -5%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a{
+    text-decoration: none;
+    padding: 0 50px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0e1871;
+}
+.top a:nth-child(1){
+    background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top a:hover{
+    background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .button-btd{
+    background:linear-gradient(90deg , #FB5155 0%, #6129AC 100%);
+    box-shadow: 0 4px 20px rgba(66,18,180,0.15);
+    padding: 15px 30px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    line-height:1px ;
+    transition: 0.7s;
+}
+.right .button-btd:hover{
+    background: linear-gradient(90DEG,#DED1FA 0%,#FBD0D8 100%);
+    color: #0e1871;
+}
+.right .button-btd i{
+    padding-left: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  
+}
+.right a:nth-child(2){
+    text-decoration: none;
+}
+.right .button-btd img:hover{
+    color: #0e1871;
+}
+.fas{
+    padding-left: 30px;
+    font-size: 36px;
+    color: transparent;
+    background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
+    -webkit-background-clip:text;
+    display: none;
+    text-decoration: none;
+}
+
+
+.overlaymenu{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index: 99;
+    width:0;
+    height:0;
+    background-color:#086ad7;
+    overflow: hidden;
+}
+.aktive{
+    width: 300px;
+    height: 100vh;
+    transition: 1.2s;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 70px 30px 0 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight:500;
+    padding:20px 15px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.btn-btn{
+    background:linear-gradient(90deg , #FB5155 0%, #6129AC 100%);
+    box-shadow: 0 4px 20px rgba(66,18,180,0.15);
+    padding: 15px 50px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    line-height:1px ;
+    transition: 0.7s;
+}
+.btn-btn:hover{
+    background: linear-gradient(90DEG,#DED1FA 0%,#FBD0D8 100%);
+    color: #0e1871;
+}
+.close{
+    color: #fff !important;
+    font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left:20px;
+  cursor: pointer;
+}
+
+@media(max-width:1200px) and (min-width:1090px){
+    .navbar{
+        padding: 20px 40px;
+    }
+    .header .logo{
+        position: absolute;
+        z-index: -1;
+        top: -9%;
+    }
+    .top{
+        display: none;
+    }
+    .fas{
+        display: block;
+    }
+}
+@media(max-width:1090px) and (min-width:568px){
+    .header .logo{
+        display: none;
+    }
+    .navbar{
+        padding: 20px 40px;
+    }
+    .top{
+        display: none;
+    }
+    .fas{
+        display: block;
+    }
+}
+@media(max-width:568px){
+    .header .logo{
+        display: none;
+    }
+    .right a:nth-child(1){
+        display: none;
+    }
+    .navbar{
+        padding: 20px 40px;
+    }
+    .top{
+        display: none;
+    }
+    .fas{
+        display:flex;
+    }
+}

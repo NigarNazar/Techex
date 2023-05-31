@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*, ::after ,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Std', sans-serif;
+}
+.ready{
+    margin: 5% 100px;
+    background-color: #211E3B;
+    border-radius: 7px;
+}
+.ready-service-item{
+background: url(http://upmedia.az/assets/img/cta_bg1.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 90px 0;
+
+}
+.ready-set-time{
+    position: relative;
+}
+.ready-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ready-all h1{
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: -3px;
+    color: #fff;
+    text-align: center;
+}
+.ready-top{
+    position: relative;
+}
+.ready-top::before{
+    width: 24px;
+    height: 24px;
+    content: "";
+    border:5px solid #e8524a;
+    border-radius: 50%;
+    position: absolute;
+    left:5%;
+}
+.ready-bottom{
+    position: relative;
+    padding-bottom: 30px;
+}
+.ready-bottom::before{
+    width: 17px;
+    height: 17px;
+    content: "";
+    border: 3px solid rgb(255, 150, 0);
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+}
+@media(max-width:1200px) and (min-width:1090px){
+    .ready{
+        margin: 5% 100px;
+    }   
+}
+@media(max-width:1198px) and (min-width:1090px){
+    .ready{
+        margin: 5% 80px;  
+    }    
+}
+@media(max-width:1090px) and (min-width:733px){
+    .ready{
+        margin: 5% 60px;  
+    }   
+    
+}
+@media(max-width:733px) and (min-width:500px){
+    .ready{
+        margin: 5% 30px 5% 40px;  
+    }   
+    .ready-all h1{
+        font-size: 34px;
+    }
+    .ready-all h1 br{
+        display: none;
+    }
+    .ready-service-item{
+        padding: 60px 0;
+    }
+}
+@media(max-width:500px){
+    
+    .ready{
+        margin: 5% 10px 5% 20px;  
+    } 
+    .ready-all h1{
+        font-size: 28px;
+    }
+    .ready-all h1 br{
+        display: none;
+    }
+    .ready-service-item{
+        padding: 60px 10px;
+    }  
+}
+
+

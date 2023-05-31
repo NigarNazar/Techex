@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+.card-item{
+    background-color: #211E3B;
+    padding: 100px 60px 40px 60px;
+    margin-top: -10%;
+    display: flex;
+   
+}
+.card-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-joker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 10%;
+}
+.cards-joker h2{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.cards-joker h6{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.card-unknow{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+border: 2px solid #2e2a50;
+margin:10% 30px;
+transition: 0.5s;
+width:270px;
+max-width: 100%;
+height: 350px;
+padding: 30px;
+border-radius: 7px;
+}
+.card-unknow:hover{
+    background-color: #2e2a50;
+}
+.card-unknow img{
+    padding-bottom: 40px;
+}
+.card-unknow h5{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color:#fff;
+    text-align: center;
+}
+.card-unknow span{
+    font-size: 17px;
+    font-weight: 700;
+    color: #9A95C0;
+   margin:20px 0; 
+   text-align: center;
+}
+@media(max-width:1200px) and (min-width:1090px){
+    
+}
+@media(max-width:1198px) and (min-width:1090px){
+    .card-item{
+        padding: 100px 60px 40px 60px;     
+    } 
+   
+}
+@media(max-width:1090px) and (min-width:733px){
+    .card-item{
+        padding: 100px 40px 40px 40px;     
+    } 
+   
+}
+@media(max-width:767px) and (min-width:733px){
+    .card-item{
+        padding: 100px 100px 40px 100px;     
+    }
+    .cards-joker h2{
+        font-size: 30px;
+    } 
+    .card-unknow{
+       width: 100%; 
+    }
+}
+@media(max-width:733px) and (min-width:500px){
+    .card-item{
+        padding: 100px 60px 40px 60px;     
+    }
+    .cards-joker h2{
+        font-size: 30px;
+    } 
+    .card-unknow{
+       width: 100%; 
+    }
+}
+@media(max-width:500px){
+    .card-item{
+        padding: 250px 30px 40px 30px ;     
+    } 
+    .card-unknow{
+        width: 100%;
+    } 
+    .cards-joker h2{
+        font-size: 28px;
+    } 
+    .card-item{
+        margin-top: -55%;
+    } 
+}

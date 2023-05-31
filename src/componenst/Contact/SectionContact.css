@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*, ::after ,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Std', sans-serif;
+}
+.sectionContact{
+    padding:15% 100px 0 100px;
+}
+.contact-set-time{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:start;
+}
+.contact-set-time h1{
+    font-size:74px;
+    font-weight: 700;
+    color: #0e1871;
+}
+.contact-set-time a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 700;
+    color: #0e1871;
+}
+.contact-set-time span i{
+    font-size: 14px;
+    color: #696969;
+    padding: 0 7px;
+}
+@media(max-width:1198px) and (min-width:1090px){
+    .sectionContact{
+        padding:25% 100px 0 100px;
+    } 
+    .contact-set-time h1{
+        font-size: 55px;
+    }  
+}
+@media(max-width:1090px) and (min-width:733px){
+    .sectionContact{
+        padding:25% 100px 0 100px;
+    }  
+   
+    .contact-set-time h1{
+        font-size: 45px;
+    }   
+}
+@media(max-width:733px) and (min-width:500px){
+    .sectionContact{
+        padding:25% 100px 0 100px;
+    }  
+    .contact-set-time h1{
+        font-size: 35px;
+    }   
+}
+@media(max-width:500px){
+    .sectionContact{
+        padding:35% 100px 0 100px;
+    }  
+    .contact-set-time h1{
+        font-size: 30px;
+    }
+    .contact-set-time a{
+        font-size: 18px;
+    } 
+}

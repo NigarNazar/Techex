@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*, ::after ,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Std', sans-serif;
+}
+
+.help-auditoriya{
+    padding: 10% 80px;
+}
+
+.help-set-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+.help-set-time h6{
+    color: #086ad7;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.help-set-time h1{
+    line-height: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #211e3b;
+    text-align: center;
+}
+.help-set-time span{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #696969;
+}
+.help-set-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 5%;
+    width: 100%;
+}
+.help-set-item img{
+    width: 46px;
+    height: 46px;
+    margin-bottom: 20px;
+}
+
+.help-set-item h4{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #211e3b;
+}
+.help-set-item span{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #696969;
+}
+@media(max-width:1198px) and (min-width:1090px){
+    .help-auditoriya{
+        padding: 10% 80px;
+    }  
+}
+@media(max-width:990px) and (min-width:978px){
+    .help-auditoriya{
+        padding: 10% 60px;
+    } 
+    .help-set-item{
+        margin:0 150px;
+    
+    }  
+    .help-set-item span{
+        font-size: 16px;
+    }
+    .help-set-time h1{
+        font-size: 36px;
+    }
+    .help-set-time span{
+        font-size: 16px;
+    }
+}
+@media(max-width:978px) and (min-width:768px){
+    .help-auditoriya{
+        padding: 10% 40px;
+    } 
+    .help-set-item{
+        margin: 0 100px;
+    }  
+    .help-set-item span{
+        font-size: 16px;
+    }
+    .help-set-time h1{
+        font-size: 26px;
+    }
+    .help-set-time span{
+        font-size: 15px;
+    } 
+}
+@media(max-width:768px) and (min-width:500px){
+    .help-auditoriya{
+        padding: 10% 80px;
+    }  
+    .help-set-item{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+    } 
+    .help-service{
+        display: flex;
+        flex-direction: column;
+    } 
+    .help-set-time h1{
+        font-size: 26px;
+    }
+    .help-set-time span{
+        font-size: 16px;
+    } 
+    .help-set-item br{
+        display: none;
+    }  
+}
+@media(max-width:500px){
+    .help-auditoriya{
+        padding: 10% 30px;
+    }  
+}
