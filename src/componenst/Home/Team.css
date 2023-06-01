@@ -8,7 +8,7 @@ body{
     font-family: 'Syne', sans-serif;
 }
 .Team{
-    padding: 11% 80px 0 80px;
+    padding: 11% 50px 0 50px;
 }
 .top-team{
     display: flex;
@@ -37,12 +37,18 @@ body{
     -webkit-background-clip: text;
     color: transparent;
 }
-
+.bottom-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
 .front{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    margin: 10px;
 }
 .icon-ul{
     background:url(http://upmedia.az/assets/img/home7/310x300.png);
@@ -71,14 +77,14 @@ body{
     align-items: center;
     border: 1px solid rgba(211, 50, 101, 0.1);
 }
-.icon-ul ul li a i{
+.icon-ul ul li a {
     color: #ffff;
 }
 .icon-ul ul li:hover{
     background: linear-gradient(132.63deg, #5116AD 15.86%, #E1345D 91.61%);
     transition: 0.5s;
 }
-.fa-youtube{
+.icon-ul ul li a .fa-youtube{
     color: #fff;
 }
 .end{
@@ -100,9 +106,14 @@ body{
     font-weight: 500;
     line-height: 100%;
 }
+@media(max-width:1429px) and (min-width:1236px){
+    .Team{
+        padding: 11 0 0 0;
+    } 
+}
 @media(max-width:1236px) and (min-width:1180px) {
     .Team{
-        padding: 11% 50px 0 50px;
+        padding: 11% 0 0 0;
     } 
 
 }

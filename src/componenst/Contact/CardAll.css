@@ -9,7 +9,7 @@ body{
     font-family: 'Circular Std', sans-serif;
 }
 .cardAll{
-    padding: 10% 80px;
+    padding: 10% 60px;
     display: flex;
 }
 .cardAll-service-set{
@@ -109,12 +109,12 @@ color: #086ad7 !important;
 
 @media(max-width:1198px) and (min-width:1090px){
     .cardAll{
-        padding: 10% 80px;
+        padding: 10% 60px;
     }  
 }
 @media(max-width:1090px) and (min-width:733px){
     .cardAll{
-        padding: 10% 60px;
+        padding: 10% 50px;
     }  
 }
 @media(max-width:733px) and (min-width:500px){

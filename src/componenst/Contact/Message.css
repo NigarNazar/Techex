@@ -102,8 +102,7 @@ input{
     outline: none;
     border: none;
 }
-.butts button a{
-    text-decoration: none;
+.butts button {
     color: #fff;
     font-size: 18px;
     font-weight: 400;

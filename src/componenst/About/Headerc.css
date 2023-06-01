@@ -136,7 +136,7 @@ text-decoration: none;
    padding-left: 10px;
    color: #696969;
 }
-.fa-youtube{
+.fa-bar a .fa-youtube{
     color: #696969;
 }
 .fa-bar a i:hover{
@@ -223,7 +223,7 @@ text-decoration: none;
     .fa-bar a{
         color: #fff;
     }
-    .fa-youtube{
+    .fa-bar a .fa-youtube{
         color: #fff !important;
     }
     .bar2 select{

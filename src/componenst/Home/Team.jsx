@@ -3,13 +3,14 @@ import "../Home/Team.css"
 const Team = () => {
   return (
     <div className='Team'>
-<div className="top-team"data-aos="fade-up"
+        <div className="team-lider">
+        <div className="top-team"data-aos="fade-up"
      data-aos-duration="2000">
     <h6><img src="http://upmedia.az/assets/img/home7/title.svg" alt="our-team" /> Our Team</h6>
     <h2>We have expert <span>team</span> to <br /> support our clients</h2>
 </div>
-<div className="bottom-team row">
-    <div className="col-lg-3 col-md-6 col-sm-12 front">
+<div className="bottom-team">
+    <div className=" front">
         <div className="icon-ul">
         <ul>
 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -23,7 +24,7 @@ const Team = () => {
 <span>Front-End Developer</span>
 </div>
     </div>
-    <div className="col-lg-3 col-md-6 col-sm-12 front">
+    <div className=" front">
     <div className="icon-ul">
         <ul>
 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -37,7 +38,7 @@ const Team = () => {
 <span>Front-End Developer</span>
 </div>
     </div>
-    <div className="col-lg-3 col-md-6 col-sm-12 front">
+    <div className=" front">
     <div className="icon-ul">
         <ul>
 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -51,7 +52,7 @@ const Team = () => {
 <span>Front-End Developer</span>
 </div>
     </div>
-    <div className="col-lg-3 col-md-6 col-sm-12 front">
+    <div className=" front">
     <div className="icon-ul">
         <ul>
 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -66,6 +67,7 @@ const Team = () => {
 </div>
     </div>
 </div>
+        </div>
     </div>
   )
 }
