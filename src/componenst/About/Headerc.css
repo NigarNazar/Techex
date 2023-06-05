@@ -23,13 +23,16 @@ body{
     height: 100vh;
     transition: 1.2s;
 }
-.fa-bars{
+.fa-open{
+    position: absolute;
+    right:40px;
+    top:20px;
     padding-left: 30px;
     font-size: 36px;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
     background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
     -webkit-background-clip:text;
-    display: none;
+    display:none;
     text-decoration: none;
 }
 .close-in{
@@ -77,6 +80,10 @@ body{
     text-align: center;
     line-height:1px ;
     transition: 0.7s;
+}
+.btn-bit:hover{
+    background: linear-gradient(90DEG,#DED1FA 0%,#FBD0D8 100%);
+    color: #0e1871;
 }
 .header-top{
 display: flex;
@@ -140,7 +147,7 @@ text-decoration: none;
     color: #696969;
 }
 .fa-bar a i:hover{
-    color: #5361e3;
+    /* color: #5361e3; */
     transition: .6s;
 }
 .bar2 span{
@@ -162,14 +169,7 @@ text-decoration: none;
     position: absolute;
     z-index: -1;
 }
-.nav-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-button a{
-    text-decoration: none;
-}
+
 .nav-link{
   display: flex;
   justify-content: space-between;
@@ -199,7 +199,7 @@ text-decoration: none;
     .nav{
         display: none;
     }
-    .fa-bars{
+    .fa-open{
         display: block;
     }
 }
@@ -207,7 +207,7 @@ text-decoration: none;
     .nav{
         display: none;
     }
-    .fa-bars{
+    .fa-open{
         display: block;
     }
 }
@@ -232,7 +232,7 @@ text-decoration: none;
     .bar2 select option{
         color: #000;
     }
-    .fa-bars{
+    .fa-open{
         display: block;
     }
 }
@@ -251,7 +251,7 @@ text-decoration: none;
 .nav-link{
     padding: 20px 40px;   
 }
-.fa-bars{
+.fa-open{
     display: block;
 }
 }
@@ -271,7 +271,7 @@ text-decoration: none;
     .nav-link{
         padding: 20px;   
     }
-    .fa-bars{
+    .fa-open{
         display: block;
     }
 }

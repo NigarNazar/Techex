@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import "../About/Headerc.css"
 import {Link} from "react-router-dom"
-import Button from "../Button"
 const Header = () => {
     const menuHeaderRef = useRef()
     function openIn(e){
@@ -26,9 +25,9 @@ menuHeaderRef.current.classList.add("actual")
                     <Link to="/service">Service</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
-                <div className='menu2-link'>
+                {/* <div className='menu2-link'>
                     <button className='btn-bit'>Consultancy <i class="fa-solid fa-arrow-right" ></i></button>
-                </div>
+                </div> */}
             </div>
             <div className="header-top">
                 <div className="bar1">
@@ -60,15 +59,12 @@ menuHeaderRef.current.classList.add("actual")
                 <div className=" logo-src">
                     <img src="http://upmedia.az/assets/img/home7/logo.png" alt="" />
                 </div>
+                <Link className='fa-open' onClick={openIn}><i class="fas fa-bars"></i></Link>
                 <div className=" nav">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>  
                 <Link to="/service">Service</Link>  
                 <Link to="/contact">Contact</Link>      
-                </div>
-                <div className="nav-button">
-                <Button buttonValue="Consultancy" photo= <i class="fa-solid fa-arrow-right"></i> />
-               <Link onClick={openIn}><i class="fas fa-bars"></i></Link>
                 </div>
                 </div>
             </div>

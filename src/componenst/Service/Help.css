@@ -137,4 +137,13 @@ body{
     .help-auditoriya{
         padding: 10% 30px;
     }  
+    .help-set-time h1{
+        font-size: 26px;
+    }
+    .help-set-time span{
+        font-size: 16px;
+    } 
+    .help-set-item br{
+        display: none;
+    }  
 }

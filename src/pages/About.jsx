@@ -10,6 +10,7 @@ import Card from "../componenst/About/Card"
 import Primary from '../componenst/About/Primary'
 import Footter from '../componenst/About/Footter'
 import Ready from '../componenst/Service/Ready'
+
 const About = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const About = () => {
 <Primary />
 <Ready />
 <Footter />
+
     </div>
   )
 }

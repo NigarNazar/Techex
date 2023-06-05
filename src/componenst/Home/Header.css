@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Circular Std', sans-serif;                                               
+    font-family: 'Circular Std', sans-serif;
+    text-decoration: none !important;                                               
 }
 
 
@@ -15,19 +16,21 @@ justify-content: space-between;
 align-items: center;
 padding:25px 80px ;
 }
-
 .header .logo{
     position: absolute;
     z-index: -1;
     top: -5%;
 }
-
+.navbar a{
+    text-decoration: none !important;
+}
 .top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .top a{
+    display: flex;
     text-decoration: none;
     padding: 0 50px;
     font-size: 17px;
@@ -41,54 +44,21 @@ padding:25px 80px ;
 }
 .top a:hover{
     background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
 }
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.right .button-btd{
-    background:linear-gradient(90deg , #FB5155 0%, #6129AC 100%);
-    box-shadow: 0 4px 20px rgba(66,18,180,0.15);
-    padding: 15px 30px;
-    border-radius: 4px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size:14px;
-    font-weight: 600;
-    color: #fff;
-    border: none;
+
+  .fabars{
+    position: absolute;
+    right: 40px;
+    top: 20px;
     text-decoration: none;
-    text-align: center;
-    line-height:1px ;
-    transition: 0.7s;
-}
-.right .button-btd:hover{
-    background: linear-gradient(90DEG,#DED1FA 0%,#FBD0D8 100%);
-    color: #0e1871;
-}
-.right .button-btd i{
-    padding-left: 7px;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-  
-}
-.right a:nth-child(2){
-    text-decoration: none;
-}
-.right .button-btd img:hover{
-    color: #0e1871;
-}
-.fas{
     padding-left: 30px;
     font-size: 36px;
-    color: transparent;
     background:linear-gradient(89.88deg , #FB5155 0.08% ,#6129AC 99.87%) ;
     -webkit-background-clip:text;
-    display: none;
+    -webkit-text-fill-color: transparent;
+    display:none;
     text-decoration: none;
 }
 
@@ -168,10 +138,10 @@ padding:25px 80px ;
         z-index: -1;
         top: -9%;
     }
-    .top{
+    .top a{
         display: none;
     }
-    .fas{
+    .fabars{
         display: block;
     }
 }
@@ -182,10 +152,10 @@ padding:25px 80px ;
     .navbar{
         padding: 20px 40px;
     }
-    .top{
+    .top a{
         display: none;
     }
-    .fas{
+    .fabars{
         display: block;
     }
 }
@@ -193,16 +163,14 @@ padding:25px 80px ;
     .header .logo{
         display: none;
     }
-    .right a:nth-child(1){
-        display: none;
-    }
+   
     .navbar{
         padding: 20px 40px;
     }
-    .top{
+    .top a{
         display: none;
     }
-    .fas{
-        display:flex;
+    .fabars{
+        display:block;
     }
 }
