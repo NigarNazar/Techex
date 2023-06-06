@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Syne', sans-serif;
+    overflow-x: hidden;
 }
 /* .table{
     padding:30px;
@@ -243,7 +244,7 @@ color: transparent;
     height: 80px;
     } 
     .pricing-testing{
-        margin: 130px 25px 20px 25px;
+        margin: 130px 20px 20px 20px;
     }    
 }
 

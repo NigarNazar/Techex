@@ -15,10 +15,11 @@ body{
 .cardAll-service-set{
     width: 380px;
     height: 230px;
+    max-width: 100%;
     background-color: #f8f8f8;
     padding: 40px;
     transition: 0.8s ease-in-out;
-    margin: 30px;
+    margin: 30px 35px;
 }
 .cardAll-service-set:hover{
     background-color: #000000;
@@ -107,10 +108,13 @@ body{
 color: #086ad7 !important;
 }
 
-@media(max-width:1198px) and (min-width:1090px){
+@media(max-width:1298px) and (min-width:1090px){
     .cardAll{
         padding: 10% 60px;
     }  
+    .cardAll-service-set{
+        margin: 30px 20px;
+    }
 }
 @media(max-width:1090px) and (min-width:733px){
     .cardAll{
@@ -122,17 +126,27 @@ color: #086ad7 !important;
         padding: 10% 40px;
     } 
     .cardAll-service-set{
-        width: 100%;
-    }   
+        width:100%;
+        margin: 30px 10px;
+       }  
 }
-@media(max-width:500px){
+@media(max-width:500px) and (min-width:450px){
     .cardAll{
-        padding: 10% 20px;
+        padding: 10% 20px 10% 20px;
     } 
     .cardAll-service-set{
-        width: 100%;
+     width:100%;
+     margin: 30px 10px;
     } 
-    .col-sm-12{
-       align-content: center;
+    
+}
+
+@media(max-width:450px){
+    .cardAll{
+        padding: 10% 5px 10% 5px;
+    } 
+    .cardAll-service-set{
+     width:100%;
+     margin: 30px 5px;
     } 
 }

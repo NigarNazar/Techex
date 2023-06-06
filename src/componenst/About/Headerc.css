@@ -264,9 +264,7 @@ text-decoration: none;
       }
       
     .about-logo{
-        position: absolute;
-        z-index: -1;
-        top: -8%;
+       display: none;
     }  
     .nav-link{
         padding: 20px;   

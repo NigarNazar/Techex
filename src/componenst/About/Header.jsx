@@ -25,9 +25,6 @@ menuHeaderRef.current.classList.add("actual")
                     <Link to="/service">Service</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
-                {/* <div className='menu2-link'>
-                    <button className='btn-bit'>Consultancy <i class="fa-solid fa-arrow-right" ></i></button>
-                </div> */}
             </div>
             <div className="header-top">
                 <div className="bar1">

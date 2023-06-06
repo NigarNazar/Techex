@@ -30,9 +30,6 @@ const Header = () => {
                     <Link to="/contact">Contact</Link>
 
                 </div>
-                {/* <div className='menu2'>
-                    <button className='btn-btn'>Free Sign Up <i class="fa-solid fa-arrow-trend-up"></i></button>
-                </div> */}
 
             </div>
 
