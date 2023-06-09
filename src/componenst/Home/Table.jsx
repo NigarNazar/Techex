@@ -8,9 +8,9 @@ const Table = () => {
     <div className='table'>
       <div className="pricing row">
         <div className="pricing-plan1 col-12">
-          <div className="media"><img src="http://upmedia.az/assets/img/home7/bg_02.png" alt="" /></div>
-          <div className="pre-top" data-aos="fade-up"
-            data-aos-duration="2000">
+          <div className="media" data-aos="fade-up"
+            data-aos-duration="2000"><img src="http://upmedia.az/assets/img/home7/bg_02.png" alt="" /></div>
+          <div className="pre-top">
             <h6><img src="http://upmedia.az/assets/img/home7/title.svg" alt="" /> Pricing Table</h6>
             <h1>Our <span>pricing</span> plans for everyday</h1>
           </div>
