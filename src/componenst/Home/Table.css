@@ -61,6 +61,7 @@ color: transparent;
     display: flex;
     justify-content:center;
     align-items: center;
+    position: relative;
 }
 .pre-bottom a{
     display:flex;
@@ -148,6 +149,9 @@ align-items: center;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
+}
+.img-test img{
+    width: 100%;
 }
 .text-test{
     display: flex;
@@ -245,6 +249,10 @@ color: transparent;
     } 
     .pricing-testing{
         margin: 130px 10px 20px 10px;
-    }    
+        width: 350px;
+    }  
+    .text-test p span{
+        font-size:44px;
+    }  
 }
 

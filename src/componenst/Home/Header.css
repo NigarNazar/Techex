@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Circular Std', sans-serif;
-    text-decoration: none !important;                                               
+    text-decoration: none !important;                                            
 }
 
 
@@ -145,7 +145,7 @@ padding:25px 80px ;
         display: block;
     }
 }
-@media(max-width:1090px) and (min-width:568px){
+@media(max-width:1090px) and (min-width:500px){
     .header .logo{
         display: none;
     }
@@ -159,7 +159,7 @@ padding:25px 80px ;
         display: block;
     }
 }
-@media(max-width:568px){
+@media(max-width:500px){
     .header .logo{
         display: none;
     }

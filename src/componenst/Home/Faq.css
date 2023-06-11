@@ -113,17 +113,17 @@ font-size: 18px;
         padding: 11% 30px 9% 30px;
     }
     .accordionHeading{
-        padding: 10px 5px;
+        padding: 10px 2px;
     }
      .container h6{
-        font-size: 16px;
+        font-size: 14px;
     }
     .plus{
-        height: 20px;
+        height:20px;
         width: 20px;
     } 
     .plus p{
-font-size: 15px;
+font-size: 14px;
     }
     .panel span{
         font-size: 14px;

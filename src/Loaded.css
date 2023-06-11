@@ -65,12 +65,14 @@ font-size: 70px;
     position: absolute;
     bottom: 25%;
     left: 25%;
+    font-size:60px;
   }
 }
 @media(max-width:500px) {
   .ringloaded h1::before{
     position: absolute;
-    bottom: 25%;
-    left: 20%;
+    bottom: 20%;
+    left: 22.5%;
+    font-size: 50px;
   }
 }
